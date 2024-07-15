@@ -30,7 +30,7 @@ export default function LoginPage() {
   }
   return (
     <form className="login" onSubmit={login}>
-      <h1>Login</h1>
+      <h1 className="text-blue-800">Login</h1>
       <input type="text"
              placeholder="username"
              value={username}
